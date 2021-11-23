@@ -649,7 +649,7 @@ function endGame() {
 
 
 
-//events
+//Events
 
 // start the game when the start quiz button is clicked
 startingButton.addEventListener("click", startGame);
