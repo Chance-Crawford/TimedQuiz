@@ -19,6 +19,7 @@ header h1 {
     margin: 0;
     font-size: 30px;
     color: darkorchid;
+    cursor: pointer;
 
 }
 
@@ -59,7 +60,7 @@ main {
 }
 
 
-.main-content p {
+.starting-paragraph {
     font-size: 30px;
     text-align: center;
     width: 100%;
@@ -89,6 +90,8 @@ main {
     flex-direction: column;
 }
 
+/* bottom text styles */
+
 .bottom-text {
     padding: 10px;
     border-top: 3px solid lightgray;
@@ -98,4 +101,60 @@ main {
     font-size: 35px;
     font-style: italic;
     font-weight: bolder;
+}
+
+/* end screen styles */
+
+.highscore-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.final-score{
+    font-size: 32px;
+}
+
+.enter-initials{
+    font-size: 32px;
+    margin: 0 15px 0 0; 
+}
+
+.input-box {
+    font-size: 24px;
+    padding: 5px 10px;
+}
+
+.submit-btn {
+    font-size: 24px;
+    margin: 0;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.user-scores {
+    width: 80%;
+    text-align: left;
+    background-color: darkblue;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 15px;
+}
+
+.button-div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+/* highscore page buttons */
+.hs-btn {
+    margin: 0 10px;
+    background-color: darkorchid;
 }
